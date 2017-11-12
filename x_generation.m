@@ -1,3 +1,10 @@
+% This is an example of how the generation of the x(t) exponential 
+% trajectory works.
+
+% There is another file, the x_gen() function which allows to generate, as
+% an output, the exponential trajectory x(t), having inputs such as initial
+% position, initial velocity, etc.
+
 clc, close all, clear all
 dt= 0.0001;
 
@@ -25,4 +32,5 @@ xlabel('Time'), ylabel('Position')
 figure
 plot(t, xd_t), title('Velocity of x(t)');
 xlabel('Time'), ylabel('Velocity')
- 
+
+
